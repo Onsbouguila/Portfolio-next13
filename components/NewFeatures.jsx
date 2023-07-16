@@ -14,6 +14,4 @@ const NewFeatures = ({ imgUrl, title, subtitle }) => (
       </div>
     );
     
-    export default NewFeatures;
-
-    
+export default NewFeatures;
