@@ -20,7 +20,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
           {title}
         </h4>
         <p className="mt-[16px] font-normal lg:text-[22px] text-[18px] text-secondary-white">
-          {subtitle} 
+          {subtitle}
         </p>
       </div>
     </div>
