@@ -21,7 +21,7 @@ const Navbar = () => (
         alt="search"
         className="object-contain"
       />
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">Your Heading Here</h2>
+    
       <img
         src="/head1.png"
         alt="menu"
