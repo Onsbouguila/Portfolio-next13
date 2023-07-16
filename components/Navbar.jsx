@@ -13,22 +13,18 @@ const Navbar = () => (
     className={`${styles.xPaddings} py-8 relative`}
   >
     <div className="absolute w-[50%] inset-0 gradient-01" />
-    <div
-      className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
-    >
+    <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
       <img
         src="/head2.png"
         alt="search"
         className="object-contain"
       />
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-        
-      </h2>
+      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white"></h2>
       <img
         src="/head1.png"
         alt="menu"
-        className=" object-contain"
-      />
+        className="object-contain"
+      ></img>
     </div>
   </motion.nav>
 );
