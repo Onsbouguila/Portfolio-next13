@@ -1,13 +1,7 @@
-import { Footer, Navbar } from '../components';
-import {
-  Explore,
-  Feedback,
-  Hero,
-  Insights,
-  WhatsNew,
-} from '../sections';
-import Header from '../sections/Header';
-import Skills from '../sections/Skills';
+import { Footer, Navbar } from "../components";
+import { Explore, Feedback, Hero, Insights, WhatsNew } from "../sections";
+import Header from "../sections/Header";
+import Skills from "../sections/Skills";
 
 const Home = () => (
   <div className="bg-primary-black overflow-hidden">
