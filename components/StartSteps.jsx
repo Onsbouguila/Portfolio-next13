@@ -1,3 +1,5 @@
+/* eslint-disable eol-last */
+
 import styles from '../styles';
 
 const StartSteps = ({ number, text }) => (

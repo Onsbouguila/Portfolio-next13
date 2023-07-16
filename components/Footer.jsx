@@ -1,3 +1,4 @@
+/* eslint-disable eol-last */
 'use client';
 
 import { motion } from 'framer-motion';
