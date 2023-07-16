@@ -46,7 +46,3 @@ const ExploreCard = ({ id, imgUrl, title, subTitle, index, active, handleClick }
 export default ExploreCard;
 
 
-
-
-
-
