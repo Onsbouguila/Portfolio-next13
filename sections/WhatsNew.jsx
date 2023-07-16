@@ -3,9 +3,9 @@
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
-import { newFeatures } from '../constants';
-import { NewFeatures, TitleText, TypingText } from '../components';
-import { planetVariants, staggerContainer, fadeIn, slideIn } from '../utils/motion';
+
+import {  TitleText } from '../components';
+import { staggerContainer, fadeIn, slideIn } from '../utils/motion';
 
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -27,9 +27,7 @@ const WhatsNew = () => (
 <span style={{color:"#4EE7FC", fontWeight:"bold"}}> Creative </span>  ,<span style={{color:"#4EE7FC", fontWeight:"bold"}}> versatile </span>  and <span style={{color:"#4EE7FC", fontWeight:"bold"}}>autonomous</span> . Strongly interested in programming and web development.
       <br/></p><p  className='sm:text-[30px] text-[20px]  text-white'>          I'm always <span className="font-extrabold text-white">motivated</span> for the realization of projects and <span className="font-extrabold text-white">seeking</span> to enhance my knowledge and skills in web development.{' '}
 </p>
-          {/* {newFeatures.map((feature) => (
-            <NewFeatures key={feature.title} {...feature} />
-          ))}  */}
+       
         </div>
       </motion.div>
 

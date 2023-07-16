@@ -36,12 +36,9 @@ const ExploreCard = ({ id, imgUrl, title,  subTitle, index, active, handleClick}
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
           {title} 
         </h2>
-        <p className="font-normal text-[19px] leading-[20.16px] text-white ">
-          {subTitle}  </p>
-      
+        <p className="font-normal text-[19px] leading-[20.16px] text-white ">{subTitle}</p>
       </div>
-    )}
+    ) }
   </motion.div>
 );
-
 export default ExploreCard;
