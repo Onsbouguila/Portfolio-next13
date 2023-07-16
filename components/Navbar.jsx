@@ -19,12 +19,12 @@ const Navbar = () => (
         alt="search"
         className="object-contain"
       />
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white"></h2>
+      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">Your Heading Here</h2>
       <img
         src="/head1.png"
         alt="menu"
         className="object-contain"
-      ></img>
+      />
     </div>
   </motion.nav>
 );
