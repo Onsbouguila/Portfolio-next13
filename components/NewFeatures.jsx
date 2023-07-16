@@ -15,3 +15,5 @@ const NewFeatures = ({ imgUrl, title, subtitle }) => (
     );
     
     export default NewFeatures;
+
+    

@@ -1,5 +1,4 @@
 /* eslint-disable eol-last */
-
 'use client';
 
 import { motion } from 'framer-motion';
@@ -45,3 +44,4 @@ const ExploreCard = ({ id, imgUrl, title, subTitle, index, active, handleClick }
 );
 
 export default ExploreCard;
+
